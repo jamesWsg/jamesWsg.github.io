@@ -1,3 +1,8 @@
+---
+layout: post
+title: linux installer kernel patch for GIGABYTE
+category: 技术
+---
 
 
 # 背景
