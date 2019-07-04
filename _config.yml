@@ -1,9 +1,9 @@
 # Site settings
-title: 吴胜国的个人博客
+title: 孔令贤的个人博客
 email: larrykong2016@gmail.com
-description: > #吴胜国的个人博客
+description: > #孔令贤的个人博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jamesWsg.github.io/index.html" # the base hostname & protocol for your site
+url: "http://lingxiankong.github.io/index.html" # the base hostname & protocol for your site
 
 # Paginate（分页）
 #gems: [jekyll-paginate]
