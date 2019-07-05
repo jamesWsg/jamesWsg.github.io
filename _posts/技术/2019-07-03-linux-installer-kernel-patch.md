@@ -9,17 +9,17 @@ category: 技术
 
 Gigabyte 1U16盘位机器安装我们iso（基于ubuntu14.04），发现安装过程卡住，有softlock up，报错如下：
 
-![1561540162320](img/linux installer kernel patch/gigabyte_install_err.png)
+![1561540162320](../../images/linux installer kernel patch/gigabyte_install_err.png)
 
 通过rescue broken system选项进入busybox，检查/var/log/syslog 发现 有如下的call trace
 
 * aacraid call trace
 
-  ![aacaid_call_trace](img/linux installer kernel patch/aacaid_call_trace.png)
+  ![aacaid_call_trace](../../images/linux installer kernel patch/aacaid_call_trace.png)
 
 * ast call trace
 
-  ![ast-call-trace](img/linux installer kernel patch/ast-call-trace.png)
+  ![ast-call-trace](../../images/linux installer kernel patch/ast-call-trace.png)
 
 
 
@@ -35,13 +35,13 @@ Gigabyte 1U16盘位机器安装我们iso（基于ubuntu14.04），发现安装�
 
 > <https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/log/drivers/gpu/drm/ast?h=linux-4.2.y>
 
-![1561540815082](img/linux installer kernel patch/Linux4.2.y.png)
+![1561540815082](../../images/linux installer kernel patch/Linux4.2.y.png)
 
 
 
 我们主线版本的kernel是4.1 版本，检查4.1的patch，更新到了2017年左右，如下
 
-![1561541374811](img/linux installer kernel patch/Linux4.1.y.png)
+![1561541374811](../../images/linux installer kernel patch/Linux4.1.y.png)
 
 从 4.1 和4.2 的patch 更新情况来看，4.1 更新的更全些，并且4.1更新的patch和我们报错的call trace也相关，所以打算将 4.1上2015年之后更新的几个patch cherry-pick到4.2的版本，然后重新build出ast模块的ko，尝试是否能解决问题
 
