@@ -1,17 +1,12 @@
 ---
 layout: post
-title: linux multipah切换时间测试
+title: linux multipah切换相关测试
 category: 技术
 ---
-
 
 linux multipah切换时间测试
 
 [TOC]
-
-
-
-
 
 
 
