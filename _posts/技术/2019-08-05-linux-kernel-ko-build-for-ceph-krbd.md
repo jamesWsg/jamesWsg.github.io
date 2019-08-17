@@ -7,6 +7,8 @@ category: 技术
 
 # 前言
 
+本文是在bean的blog（http://bean-li.github.io/tags/）上修改了其中一些有误的地方，留个记录供后续参考。
+
 近期和中兴通讯合作超融合，对方使用CentOS 7.2，用OpenStack+KVM和我们的RBD对接，但是ZTE不想使用用户态对接的方法，因此，直接装ceph client RPM，让用户使用librbd对接的方式就不行了，客户需将rbd map成块设备，在内核态直接操作rbd。这就牵扯到对应内核模块的重编译。
 
 ceph相关的内核模块有:
