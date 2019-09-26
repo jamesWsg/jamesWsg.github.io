@@ -80,7 +80,7 @@ category: 技术
 
 
 
-![1569411046653](img/ctrip container/architect.png)
+![1569411046653](../../images/ctrip container/architect.png)
 
 IaaS平台中有虚拟化环境，也有物理机，并且采用了ceph，mesos最终迁移到K8s，k8s跑在了vm上
 
@@ -92,7 +92,7 @@ IaaS平台中有虚拟化环境，也有物理机，并且采用了ceph，mesos�
 
 ##交付流程 
 
-![1569411728527](img/ctrip container/diliver.png)
+![1569411728527](../../images/ctrip container/diliver.png)
 
 3个核心点，针对3个点，引出3个方面的展开内容
 
@@ -106,7 +106,7 @@ IaaS平台中有虚拟化环境，也有物理机，并且采用了ceph，mesos�
 
 
 
-![1569411990051](img/ctrip container/version_control.png)
+![1569411990051](../../images/ctrip container/version_control.png)
 
 
 
@@ -116,7 +116,7 @@ IaaS平台中有虚拟化环境，也有物理机，并且采用了ceph，mesos�
 
 
 
-![1569412234725](img/ctrip container/docker_images.png)
+![1569412234725](../../images/ctrip container/docker_images.png)
 
 
 
@@ -144,7 +144,7 @@ docker file动态注入 依赖
 
 
 
-![1569412508209](img/ctrip container/resource_manager.png)
+![1569412508209](../../images/ctrip container/resource_manager.png)
 
 
 
