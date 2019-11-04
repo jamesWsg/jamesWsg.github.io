@@ -1,6 +1,6 @@
 ---
 layout: post
-title:得到学习笔记 吴军谈5G
+title:得到学习笔记-吴军谈5G
 category: 生活
 ---
 

@@ -1,14 +1,8 @@
-
-
-
-
 ---
 layout: post
 title: 学习笔记之微博的自动化运维平台
 category: 技术
 ---
-
-
 
 
 
