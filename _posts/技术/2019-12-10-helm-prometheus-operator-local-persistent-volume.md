@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title: helm Prometheus-operator use host local persistent volume
