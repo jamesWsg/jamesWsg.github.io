@@ -1,20 +1,12 @@
 ---
 layout: post
-title:得到学习笔记-吴军谈5G
-category: 生活
+title:得到学习笔记 吴军谈5G
+category: 技术
 ---
-
-
-
-
-
-
 
 # 4G的痛点
 
 并发连接数有限
-
-
 
 
 
