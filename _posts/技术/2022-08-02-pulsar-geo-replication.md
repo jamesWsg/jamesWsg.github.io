@@ -1,3 +1,9 @@
+---
+layout: post
+title: pulsar geo-replication原理和实践
+category: 技术
+---
+
 # 01 - Geo Replication
 
 # 原理
