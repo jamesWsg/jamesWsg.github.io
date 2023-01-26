@@ -3,12 +3,11 @@ layout: post
 title: pulsar geo-replication原理和实践
 category: 技术
 ---
-
 # 01 - Geo Replication
 
 # 原理
 
-![Untitled](01%20-%20Geo%20Replication%209fb03f3d8a724a99bdfb2eeaa03ce9ef/Untitled.png)
+![Untitled](../../images/01%20-%20Geo%20Replication%209fb03f3d8a724a99bdfb2eeaa03ce9ef/Untitled.png)
 
 - topic中消息的同步
 - topic的schema同步（）
@@ -518,7 +517,7 @@ bin/pulsar-admin topics get-replicator-dispatch-rate geo-wsg/geo-ns/pt
 
 增加了带宽的panel
 
-![Untitled](01%20-%20Geo%20Replication%209fb03f3d8a724a99bdfb2eeaa03ce9ef/Untitled%201.png)
+![Untitled](../../images/01%20-%20Geo%20Replication%209fb03f3d8a724a99bdfb2eeaa03ce9ef/Untitled%201.png)
 
 如果需要使用，可以直接import下面的dashboard 
 
@@ -540,4 +539,3 @@ bin/pulsar-admin topics get-replicator-dispatch-rate geo-wsg/geo-ns/pt
 
 双活需要涉及到订阅的同步，（订阅的同步是无法避免重复消息的情况，，）
 
-如果把整个过程（配置/复制）在管理台上以图形化显示，管理效率会提升@德志
